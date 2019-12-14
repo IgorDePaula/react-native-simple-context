@@ -8,7 +8,7 @@ const Nav = () => {
     <View>
       <Text style={styles.title}>Igor</Text>
       <Text style={styles.h1}>Lista de filmes</Text>
-      <Text style={styles.h2}>Numero de filmes: {movies.leading}</Text>
+      <Text style={styles.h2}>Numero de filmes: {movies.length}</Text>
     </View>
   );
 };

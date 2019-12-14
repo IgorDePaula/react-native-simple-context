@@ -43,9 +43,7 @@ const AddMovie = () => {
       <TextInput onChangeText={text => updatePrice(text)} value={price} />
       <Button
         title={'Salvar'}
-        onPress={() => {
-          AddMovie();
-        }}
+        onPress={AddMovie}
       />
     </>
   );
